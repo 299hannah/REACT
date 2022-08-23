@@ -22,8 +22,8 @@ const Home = ({ username, setUsername, room, setRoom, socket }) => {
             />
 
             <select
-                classname={styles.input}
-                onchange={(e) => setRoom(e.target.value)}>
+                className={styles.input}
+                onChange={(e) => setRoom(e.target.value)}>
                 <option>-- Select Room --</option>
                 <option value='javascript'>JavaScript</option>
                 <option value='node'>Node</option>
